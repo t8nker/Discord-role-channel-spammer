@@ -1,0 +1,15 @@
+{
+  "name": "serverSpammer",
+  "version": "1.0.0",
+  "description": "these are bot commands my friend wanted to fuck with some server that he is in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "T8nker",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
