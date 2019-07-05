@@ -16,16 +16,16 @@ Edit `index.js` and enter your discord bot token
 You can find your token here --->   https://discordapp.com/developers/applications/me.
 
 
-prefix is '-'
+prefix is '!'
+#Commands
+#-c          - Makes 250 text channels
 
-'-c'           makes 250 text channels
-
-'-r'           makes 250 roles 
+#-r          - Makes 250 roles 
   
 Just in case you did it in the wrong server because u were fucking around. i added commands to clean the mess. 
 copy and paste 'help.txt' into 'index.js' 
 
-'-rc'           clears created channels
+#-rc         - Clears created channels
 
-'-rr'            clears created roles
+#-rr         - Clears created roles
 
