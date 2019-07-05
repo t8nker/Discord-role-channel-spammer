@@ -29,4 +29,3 @@ copy and paste 'help.txt' into 'index.js'
 
 -rr          - clears created roles
 
-1. Go to https://discordapp.com/developers/applications/me
