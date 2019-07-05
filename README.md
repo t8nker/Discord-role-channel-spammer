@@ -10,7 +10,8 @@ prefix is '-'
 
 -role       - makes 300 roles 
   
-  
+Just in case you did it in the wrong server because u were fucking around. i added commands to clean the mess. 
+Check copy and paste 'help.txt'into 'index.js' 
   
   
   
