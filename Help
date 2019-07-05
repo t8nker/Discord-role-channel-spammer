@@ -1,0 +1,20 @@
+if(msg.content === Prefix + 'rc') //deletes all channels named 'get-fucked'
+        {
+          for ( i=0  ; i <= 250; i++)
+          {
+            await msg.guild.channels.find(channel => channel.name === "get-fucked").delete().catch(console.error)
+      };
+    }
+
+
+
+   if(msg.content === Prefix + 'rr') //deletes all roles named 'dumbass'
+   {
+     for ( i=0  ; i <= 250; i++)
+     {
+     await msg.guild.roles.find(role => role.name === 'dumbass').delete().catch(console.error)
+   };
+ }
+ 
+ 
+ //commands to delete the created channels and roles
