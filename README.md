@@ -6,9 +6,9 @@ Use at your own risk.
 
 prefix is '-'
 
--channel    -  makes 300 channels
+-c   -  makes 250 text channels
 
--role       - makes 300 roles 
+-r   -  makes 250 roles 
   
 Just in case you did it in the wrong server because u were fucking around. i added commands to clean the mess. 
 copy and paste 'help.txt'into 'index.js' 
